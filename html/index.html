@@ -3,18 +3,54 @@
 <!-- yes, this is terrible code. I'm a newb. what do you want from me? -->
 <head>
 	<title>Maladroit Dojo</title>
-<!-- 	<link rel="stylesheet" type="text/css" href="styles.css"> -->
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 <body>
+	<nav class="navbar navbar-default">
+		<div class="container">	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+				<a href="index.html" class="navbar-brand">Maladoit</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="coding.html">Coding</a></li>
+					<li><a href="pointless.html">Pointless Stuff</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.html">Login</a></li>
+					<li><a href="register.html">Register</a></li>		
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-<div class="container">
-	<div class="jumbotron">
-		<h1>Maladroit</h1>
-		<p>ineffective or bungling; clumsy</p>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Maladroit</h1>
+			<p>ineffective or bungling; clumsy</p>
+		</div>
 	</div>
-</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="container col-lg-4"><p>This is the 1st ninja</p><img width=200px src="../static/images/ninja-1.png"></div>
+			<div class="container col-lg-4"><p>This is the 2nd ninja</p><img width=200px src="../static/images/ninja-2.png"></div>
+			<div class="container col-lg-4"><p>This is the 3rd ninja</p><img width=200px src="../static/images/ninja-3.png"></div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="../static/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
